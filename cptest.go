@@ -22,7 +22,7 @@ func main(){
 		return
 	}
 
-	fmt.Printf(path, size)
+	fmt.Printf("path %s, size %d\n", path, size)
 
 }
 
