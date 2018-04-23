@@ -4,6 +4,7 @@ import (
 	"flag"
 	"log"
 	"os"
+	"fmt"
 )
 
 var path *string
@@ -21,6 +22,7 @@ func main(){
 		return
 	}
 
+	fmt.Printf(path, size)
 
 }
 
